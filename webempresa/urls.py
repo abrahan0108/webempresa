@@ -24,6 +24,10 @@ urlpatterns = [
     path('services/', include('services.urls')),
     # path de la app blog
     path('blog/', include('blog.urls')),
+    # path para la app pages
+    path('page/', include('pages.urls')),
+    # path para la app contact
+    path('contact/', include('contact.urls')),
     # path del admin
     path('admin/', admin.site.urls),
 ]
