@@ -18,8 +18,8 @@ def contact(request):
             email = EmailMessage(
                 "La Caffetiera: nuevo mensaje de contacto",
                 "De: {0} <{1}>\n\nEscribió:\n\n{2}".format(name, email, content),
-                "acortes.8@zoho.com",
-                ["f8abrahan@gmail.com"],
+                "f8abrahan@gmail.com",
+                ["acortes.8@zoho.com"],
                 reply_to=[email],
                 headers={'Content-Type':'text/plain'},
             )

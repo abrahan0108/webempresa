@@ -143,10 +143,7 @@ CKEDITOR_CONFIGS = {
 }
 
 # Email config
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.zoho.com'
-EMAIL_HOST_USER = 'acortes.8@zoho.com'
-EMAIL_HOST_PASSWORD = '@3RNt1d¡n$'
-EMAIL_PORT = 465
-EMAIL_USE_TSL = False
-EMAIL_USE_SSL = True
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '3200cc4ad041b2'
+EMAIL_HOST_PASSWORD = '494ae89dcecc5a'
+EMAIL_PORT = '2525'
